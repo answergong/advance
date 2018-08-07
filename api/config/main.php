@@ -13,6 +13,11 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'modules' => [
+            'v1' => [
+                'class' => 'api\modules\v1\Module',
+            ],
+        ],
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
