@@ -13,6 +13,7 @@ use yii\base\Exception;
 
 Class Container
 {
+    //增加注释-gxz
     private $_definitions;
 
     /**
